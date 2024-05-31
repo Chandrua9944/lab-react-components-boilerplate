@@ -49,6 +49,9 @@ function App() {
         }
       </div>
       {/* adding footer component */}
+      
+      <GallaryHeader/>
+      <GallaryBody imageData={imageData}/>
       <GallaryFooter/> 
     </div>
   )
